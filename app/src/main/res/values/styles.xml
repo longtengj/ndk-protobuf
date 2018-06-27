@@ -1,0 +1,90 @@
+<resources>
+    <style name="Theme.XC" parent="Theme.XC.Base"/>
+    <style name="Theme.XC.Splash" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+
+    <style name="Theme.XC.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:actionModeBackground">@color/primary</item>
+    </style>
+
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="overlapAnchor">true</item>
+    </style>
+
+    <style name="Theme.XC.CustomTheme" parent="MaterialDrawerTheme">
+
+        <item name="colorPrimary">@color/material_drawer_primary</item>
+        <item name="colorPrimaryDark">@color/material_drawer_primary_dark</item>
+        <item name="colorAccent">@color/material_drawer_accent</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="textPrimary">#de000000</color>
+    <color name="textSecondary">#8a000000</color>
+    <color name="buttonTint">@color/textSecondary</color>
+    <color name="background">#fffafafa</color>
+
+    <color name="primary">#3f72b5</color>
+    <color name="secondary">#305e9f</color>
+    <color name="accent">@color/primary</color>
+
+    <style name="ListItemPrimary" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+
+    <style name="ListItemSecondary" parent="@style/TextAppearance.AppCompat.Caption">
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textSecondary</item>
+
+    </style>
+    <!-- 菜单TextView的样式 -->
+    <style name="MenuItemImageViewStyle">
+        <item name="android:layout_width">36dip</item>
+        <item name="android:layout_height">36dip</item>
+        <item name="android:layout_marginRight">50dip</item>
+    </style>
+
+</resources>

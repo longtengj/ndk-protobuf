@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ndk-protobuf.iml" filepath="$PROJECT_DIR$/ndk-protobuf.iml" />
+      <module fileurl="file://F:\java_project\android_studio\ndk-protobuf\td200.iml" filepath="F:\java_project\android_studio\ndk-protobuf\td200.iml" />
+    </modules>
+  </component>
+</project>

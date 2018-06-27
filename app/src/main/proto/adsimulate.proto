@@ -1,0 +1,10 @@
+message ADValue
+{
+    repeated uint32 uiMainAds = 1;  //主波
+    repeated uint32 uiSubAds  = 2;  //副波
+}
+
+message ADSimulate
+{
+    repeated ADValue data     = 1;
+}
